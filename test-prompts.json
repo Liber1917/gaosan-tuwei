@@ -1,0 +1,111 @@
+{
+  "book": "《高三突围：高三党从入门到精通》",
+  "skill_set": "gaosan-tuwei",
+  "test_prompts": [
+    {
+      "id": "T01",
+      "category": "认知重构",
+      "prompt": "我的同桌从来不认真学习，但每次考试成绩都比我好，我是不是真的比他笨？",
+      "target_skills": ["01-zhishang-trap", "02-crystal-intelligence"],
+      "expected_elements": ["智商正态分布", "晶体智力", "流体智力", "错误归因", "可积累的努力方向"]
+    },
+    {
+      "id": "T02",
+      "category": "心态管理",
+      "prompt": "这次月考又考差了，我已经努力很久了，感觉没有进步，很绝望，是不是没救了？",
+      "target_skills": ["04-long-term-thinking", "03-learning-model", "06-probability-mindset"],
+      "expected_elements": ["短期波动不代表趋势", "灯泡-电线", "概率视角", "不要放弃具体的改进行动"]
+    },
+    {
+      "id": "T03",
+      "category": "决策简化",
+      "prompt": "我应该戒手机吗？还是允许自己每天玩一小时放松？",
+      "target_skills": ["05-only-gaokao", "12-focus-management"],
+      "expected_elements": ["只有高考原则", "不是应不应该的问题", "物理隔离比意志力更可靠"]
+    },
+    {
+      "id": "T04",
+      "category": "方法选择",
+      "prompt": "我想在暑假找到最好的学习方法，知乎上有很多推荐，我该怎么挑？",
+      "target_skills": ["07-method-system-30days", "08-content-filter"],
+      "expected_elements": ["30天三阶段", "内容鄙视链", "5天调研不漫无目的", "找文不如找人"]
+    },
+    {
+      "id": "T05",
+      "category": "记忆遗忘",
+      "prompt": "我学过的东西老是忘，背了之后过一段时间就不记得了，怎么办？",
+      "target_skills": ["09-memory-review", "03-learning-model"],
+      "expected_elements": ["遗忘曲线", "复习节点1/3/7/14/30天", "电线会变细需要加固", "理解后再重复"]
+    },
+    {
+      "id": "T06",
+      "category": "错题管理",
+      "prompt": "我有一本错题本，但感觉越来越厚，根本看不完，好像也没什么用？",
+      "target_skills": ["10-error-book"],
+      "expected_elements": ["只收录不会的题不收粗心", "二刷是关键不是收集", "毕业条件", "错题记录格式"]
+    },
+    {
+      "id": "T07",
+      "category": "复习规划",
+      "prompt": "现在是高三开学第一个月，我不知道该怎么安排一年的复习计划？",
+      "target_skills": ["11-three-round-review", "16-time-planning"],
+      "expected_elements": ["三轮时间分配", "一轮覆盖知识点", "二轮专题突破", "三轮稳定发挥"]
+    },
+    {
+      "id": "T08",
+      "category": "专注力",
+      "prompt": "我一坐下来学习就想拿手机，坐了2小时什么也没学进去，怎么改善？",
+      "target_skills": ["12-focus-management"],
+      "expected_elements": ["手机物理隔离", "深度专注状态", "25/45分钟计时", "走神应对策略"]
+    },
+    {
+      "id": "T09",
+      "category": "学科方法",
+      "prompt": "数学老是考不好，感觉不管做多少题都没用，到了考场还是不会？",
+      "target_skills": ["14-subject-methods", "02-crystal-intelligence", "10-error-book"],
+      "expected_elements": ["题型分类管理", "高考真题刷完", "套路化思维", "错题二刷"]
+    },
+    {
+      "id": "T10",
+      "category": "考场策略",
+      "prompt": "我考试经常时间不够，最后好几道题来不及做，怎么解决？",
+      "target_skills": ["13-exam-strategy"],
+      "expected_elements": ["先易后难", "难题跳过标记", "时间分配比例", "检查留时间"]
+    },
+    {
+      "id": "T11",
+      "category": "临考冲刺",
+      "prompt": "距高考还有一个月，我应该怎么安排这最后30天？",
+      "target_skills": ["15-pre-exam-sprint", "13-exam-strategy"],
+      "expected_elements": ["四阶段安排", "全真模拟", "考前必看清单", "减速阶段", "焦虑处理"]
+    },
+    {
+      "id": "T12",
+      "category": "内容筛选",
+      "prompt": "我看了很多高三逆袭经验贴，但感觉每篇说的都不一样，不知道该听谁的？",
+      "target_skills": ["08-content-filter", "07-method-system-30days"],
+      "expected_elements": ["内容鄙视链", "只摘干货不看故事", "方法不是最好的而是适合自己的", "调研期5天原则"]
+    },
+    {
+      "id": "T13",
+      "category": "综合认知",
+      "prompt": "我感觉高三就是拼命刷题，但刷了很多题成绩还是没提高，哪里出问题了？",
+      "target_skills": ["03-learning-model", "10-error-book", "09-memory-review"],
+      "expected_elements": ["缺灯泡还是缺电线先判断", "刷题≠积累电线", "错题内化", "复习节点"]
+    },
+    {
+      "id": "T14",
+      "category": "方法本质",
+      "prompt": "老师总说要积累套路、多整理，这真的有用吗？还是说聪明人才能成功？",
+      "target_skills": ["02-crystal-intelligence", "01-zhishang-trap"],
+      "expected_elements": ["晶体智力科学依据", "软件类比", "普通人弯道超车机制", "老师建议的科学依据"]
+    },
+    {
+      "id": "T15",
+      "category": "自律执行",
+      "prompt": "我每天计划都做了但从来不执行，总是拖延，明天再说，怎么改变这个状态？",
+      "target_skills": ["16-time-planning", "05-only-gaokao", "12-focus-management"],
+      "expected_elements": ["任务而非时间规划", "每日三件事", "习惯化而非意志力", "极小起点"]
+    }
+  ]
+}
